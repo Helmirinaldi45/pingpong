@@ -8,8 +8,10 @@ namespace pingpong.Models
         
         [DataType(DataType.Date)]
         public DateTime GameDate { get; set; }
-        public int? Score { get; set; }
+        public double? Score { get; set; }
         public string? HomeTeam { get; set; }
         public string? AwayTeam { get; set; }
+        public string? winner {get; set;}
+        public string? losser {get; set;}
     }
 }
